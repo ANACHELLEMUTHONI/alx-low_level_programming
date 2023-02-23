@@ -1,12 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
-  * main - adds two numbers
-  * @a: para 1
-  * @b: para 2
-  * Return: sum
-  */
+ * add - returns the sum of parameters
+ * @a: int type number
+ * @b: int type number
+ * Return: 0
+ */
 int add(int a, int b)
 {
 	return (a + b);
