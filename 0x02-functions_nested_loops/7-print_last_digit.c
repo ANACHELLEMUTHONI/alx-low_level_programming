@@ -4,7 +4,7 @@
  *
  * @i: function parameter
  *
- * Return: always k 
+ * Return: always 0
  */
 
 
@@ -17,4 +17,4 @@ int print_last_digit(int i)
 		k = -k;
 	_putchar(k + '0');
 	return (k);
-}	
+}
